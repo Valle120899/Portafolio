@@ -194,11 +194,17 @@ footer {
         margin: 15px;
         width: 500px;
         height: 200px;
+        background-repeat: no-repeat;
         background-size: cover;
-        transition-property:unset;
+        background-image: url("./Photos/Me.jpg");
+        transition-property: background;
+        transition-duration: 2s;
     }
     
-
+    .circular:hover{
+        background: url("./Photos/Me2.jpg");
+        background-size: cover;
+    }
 
     .About{
         color: black;
@@ -208,7 +214,7 @@ footer {
     .text:hover + .circle{
         background: #EB6D82;
         transform: rotate(360deg);
-        margin-left: 80%;
+        margin-left: 70%;
         border-radius: 50%;
     }
 
