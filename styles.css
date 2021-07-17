@@ -191,22 +191,25 @@ footer {
     }
 
     .circular{
-        margin: 15px    ;
+        margin: 15px;
         width: 500px;
         height: 200px;
         background-size: cover;
-        transition-property: background;
-        transition-duration: 2s;
+        transition-property:unset;
     }
     
-    .circular:hover{
-        background-size: cover;
-    }
+
 
     .About{
         color: black;
         font-size: 10px;
     }
 
+    .text:hover + .circle{
+        background: #EB6D82;
+        transform: rotate(360deg);
+        margin-left: 80%;
+        border-radius: 50%;
+    }
 
   }
