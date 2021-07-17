@@ -17,7 +17,7 @@ ul, ol{
 }
 
 .nav li a {
-    background-color:#f3c1f3;
+    background-color:rgb(7, 7, 65);
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -95,7 +95,7 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
-
+    
     transition-duration: 1s;
     transition-delay: 0.5s;
     transition-timing-function: linear;
@@ -104,6 +104,44 @@ header{
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px red;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    background: red; 
+    transition: width 1s, height 1s;
+}
+
+.color{
+    background: blue;
+}
+
+
+.container{
+    display: none;
+}
+
+.square:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    background: white;
+    width: 300px;
+    height: 150px;
+}
+
+.color:hover{
+    box-shadow: 5px 10px blue;
+}
+
+.square:hover .container{
+    display: block;
+}
+
+.container img{
+    width: 75px;
+    height: 75px;
 }
 /* Footer */
 footer {
