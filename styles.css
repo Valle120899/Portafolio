@@ -181,7 +181,9 @@ footer {
      margin-left: 95%;
      border-radius: 50%;
  }
-
+.none{
+    display: none;
+}
  /*Celulares*/
 
  @media only screen and (max-width: 600px ) {
@@ -189,6 +191,18 @@ footer {
     .nav{
         display: none;
     }
+    .none a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        background: yellow;
+    }
+    .none{
+        text-align: center;
+        display: block;
+    }
+
 
     .circular{
         margin: 15px;
