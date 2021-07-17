@@ -65,7 +65,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("./Photos/Me.jpg");
-    
     transition-property: background;
     transition-duration: 2s;
 }
@@ -99,6 +98,9 @@ header{
     transition-duration: 1s;
     transition-delay: 0.5s;
     transition-timing-function: linear;
+}
+.skill{
+    text-align: center;
 }
 .texto{
     border: 1px solid;
@@ -179,3 +181,32 @@ footer {
      margin-left: 95%;
      border-radius: 50%;
  }
+
+ /*Celulares*/
+
+ @media only screen and (max-width: 600px ) {
+
+    .nav{
+        display: none;
+    }
+
+    .circular{
+        margin: 15px    ;
+        width: 500px;
+        height: 200px;
+        background-size: cover;
+        transition-property: background;
+        transition-duration: 2s;
+    }
+    
+    .circular:hover{
+        background-size: cover;
+    }
+
+    .About{
+        color: black;
+        font-size: 10px;
+    }
+
+
+  }
